@@ -1,17 +1,1 @@
- Execute Windows batch command  --- C:\nuget\nuget.exe restore AspCalMStest.sln
-Build a Visual Studio project or solution using MSBuild -- MSBuild
-MSBuild Build File -- C:\Users\MSIS\workspace\msbuild\AspCalMStest\AspCalMStest.csproj
-Command Line Arguments --- 
-/p:DeployOnBuild=true  
 
-/p:DeployDefaultTarget=WebPublish  
-
-/p:WebPublishMethod=FileSystem  
-
-/p:SkipInvalidConfigurations=true  
-
-/p:Configuration=Release  
-
-/p:DeleteExistingFiles=True  
-
-/p:publishUrl=c:\inetpub\wwwroot 
